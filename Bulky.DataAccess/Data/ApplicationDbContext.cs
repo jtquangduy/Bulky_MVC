@@ -117,7 +117,7 @@ namespace BulkyBook.DataAccess.Data
                     new Company
                     {
                         Id = 1,
-                        Name = "Action",
+                        Name = "Tech Solution",
                         StreetAddress = "123 Tech St",
                         City = "Tech City",
                         PostalCode = "12121",
