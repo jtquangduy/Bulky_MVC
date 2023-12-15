@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BulkyBook.Utility
+﻿namespace BulkyBook.Utility
 {
     public static class SD
     {
@@ -12,7 +6,7 @@ namespace BulkyBook.Utility
         public const string Role_Company = "Company";
         public const string Role_Admin = "Admin";
         public const string Role_Employee = "Employee";
-     
+
         public const string StatusPending = "Pending";
         public const string StatusApproved = "Approved";
         public const string StatusInProcess = "Processing";
@@ -24,5 +18,7 @@ namespace BulkyBook.Utility
         public const string PaymentStatusApproved = "Approved";
         public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
         public const string PaymentStatusRejected = "Rejected";
+
+        public const string SessionCart = "SessionShoppingCart";
     }
 }
