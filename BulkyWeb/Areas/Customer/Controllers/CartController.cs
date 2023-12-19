@@ -183,6 +183,8 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
                     _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }
+
+                HttpContext.Session.Clear();
             }
 
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
